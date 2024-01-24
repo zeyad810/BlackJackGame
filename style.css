@@ -1,0 +1,53 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+    background-color: gainsboro;
+}
+.container{
+    text-align: center;
+    width: 90dvw;
+    padding: 20px 0;
+    background:  url( pngtree-casino-floating-poker-chips-green-background-image_914048.png) no-repeat;
+    background-position: center ;
+    background-size: 100% 100%;
+    box-shadow: 0 0 1em darkgreen
+    ;
+
+}
+h1{
+    color: goldenrod;
+    padding: 2rem;
+
+}
+
+p{
+    color: #fff;
+    padding: 0.75em;
+    font-size: 1.4rem; 
+    backdrop-filter: blur(2px);
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    padding: 0.8em 0em;
+    width: 200px;
+    outline: none;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 0.25em;
+    color: #016f32;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
